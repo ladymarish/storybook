@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=9b1d1e0a9801"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,9 @@
     "@storybook/html": "^6.5.9",
     "@storybook/manager-webpack4": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.2.5"
-  }
+    "babel-loader": "^8.2.5",
+    "chromatic": "^6.6.3"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook-demo@1.0.0"
 }
